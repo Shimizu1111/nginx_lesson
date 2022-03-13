@@ -26,7 +26,7 @@ docker exec -it 3b /bin/bash
 
 
 イメージごと削除
-docker-compose up down
+docker-compose down
 docker stop $(docker ps -q)
 docker system prune
 docker ps
